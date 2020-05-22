@@ -7,7 +7,8 @@ def find_even_values(src)
   while index1 < src.count do
     while index2 < src[index1].count do
       index2 += 1
-      if src[index1][index2] % 2 == 0
+      current_value = src[index1][index2]
+      if current_value % 2 == 0
         p src[index1][index2]
       end
     end
