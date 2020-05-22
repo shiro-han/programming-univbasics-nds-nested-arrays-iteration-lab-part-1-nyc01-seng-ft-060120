@@ -9,7 +9,7 @@ def find_even_values(src)
       index2 += 1
       current_value = src[index1][index2]
       if current_value % 2 == 0
-        p src[index1][index2]
+        p current_value
       end
     end
     index1 += 1
